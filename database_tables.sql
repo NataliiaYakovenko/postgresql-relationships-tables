@@ -33,7 +33,7 @@ CREATE TABLE exams(
     mark NUMERIC(3, 2) CHECK(mark >= 0) NOT NULL,
     PRIMARY KEY (id_stud, id_course)
 );
-INSERT INTO exams(id_stud,id_course,mark)
+INSERT INTO exams(id_stud, id_course, mark)
 VALUES(1, 2, 7.89),
       (1, 3, 6.55),
       (2, 1, 8.00),
